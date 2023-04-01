@@ -1,0 +1,8 @@
+administer movie configuration:
+  title: 'Administer movie configuration'
+  description: 'Optional description.'
+  restrict access: true
+
+administer movie:
+  title: 'Administer movie settings'
+  restrict access: true

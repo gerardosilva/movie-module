@@ -1,0 +1,9 @@
+name: Movie
+type: module
+description: Custom Entity Movie
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - datetime
+  - taxonomy
+  - serialization

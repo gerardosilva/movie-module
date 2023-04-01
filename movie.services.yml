@@ -1,0 +1,9 @@
+services:
+  movie.normalizer.movie:
+    class: Drupal\movie\Normalizer\MovieNormalizer
+    arguments:
+      - '@entity_type.manager'
+      - '@entity_type.repository'
+      - '@entity_field.manager'
+    tags:
+      - { name: normalizer, priority: 2, format: json }

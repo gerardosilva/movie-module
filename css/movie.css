@@ -1,0 +1,24 @@
+.movie-add-form{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.movie-add-form .field--name-title,
+.movie-add-form .field--name-release-date,
+.movie-add-form .field--name-field-genre{
+  width: 30%;
+}
+
+.movie-add-form .field--name-release-date{
+  align-self:  center;
+}
+
+.movie-add-form .field--name-release-date .form-item {
+  width: 80%;
+  margin: auto;
+}
+
+.movie-add-form .field--name-field-genre .form-item, input{
+  width: 100%;
+}

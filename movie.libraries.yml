@@ -1,0 +1,11 @@
+# Custom module library for general purposes.
+movie:
+  js:
+    js/movie.js: {}
+  css:
+    component:
+      css/movie.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal

@@ -1,0 +1,8 @@
+movie.movie_form:
+    route_name: movie.movie_form
+    title: 'Movie'
+    base_route: movie.movie_form
+    parent: system.admin_content
+    weight: 0
+    attached_library:
+      - movie/movie
